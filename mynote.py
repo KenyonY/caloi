@@ -171,7 +171,7 @@ def main():
                             break
                         if _ == '-1':
                             print(f'delete item {read_ess[0]}')
-                            note.del_en_key(es_idx)
+                            note.del_es_idx(es_idx)
                         es_idx, read_ess = note.read_essay()
 
                 if read_flag[read_idx] == 'English': # stupid too
